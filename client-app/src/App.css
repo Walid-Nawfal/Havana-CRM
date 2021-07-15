@@ -1,0 +1,24 @@
+.toast {
+  background-color: teal!important;
+}
+.masthead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+  background-image: linear-gradient(
+          135deg,
+          rgb(0, 48, 48) 0%,
+          rgb(0, 141, 141) 69%,
+          rgb(0, 199, 199) 89%
+  ) !important;
+  height: 100vh!important;
+}
+
+#MySelect{
+  z-index: 100!important;
+}
+#MySelect1 {
+  z-index: 200!important;
+}
